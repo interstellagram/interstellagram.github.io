@@ -1,7 +1,7 @@
 title: interstellagram
-author: Jonna Nolan
+author: Jonnanolan
 description: >-
-  Hello. I'm Jonna Nolan, a film critic exploring image, memory, and time through science fiction and arthouse cinema.
+  Hello. I'm Jonnanolan, a film critic exploring image, memory, and time through science fiction and arthouse cinema.
 
 url: "https://interstellagram.github.io"
 baseurl: ""
@@ -12,7 +12,7 @@ sass:
 
 plainwhite:
   name: interstellagram
-  tagline: Film Critic Jonna Nolan
+  tagline: Film Critic Jonnanolan
   date_format: "%Y-%m-%d"
   sitemap: true
   search: true
