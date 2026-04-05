@@ -110,7 +110,10 @@ main {
       line-height: normal;
     }
     img {
-      max-width: 150px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
     }
     img.dark {
       display: none;
@@ -308,7 +311,8 @@ footer {
         flex-direction: row;
         margin-bottom: 10px;
         img {
-          max-height: 40px;
+          width: 40px;
+          height: 40px;
         }
         h2 {
           margin: 0 10px;

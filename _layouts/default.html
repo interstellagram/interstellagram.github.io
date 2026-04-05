@@ -33,7 +33,7 @@
       {%- endif -%}
       </div>
       {% capture footer %}
-      {%- if site.plainwhite.social_links != '' -%}
+      {%- if site.plainwhite.social_links and site.plainwhite.social_links.size > 0 -%}
       <ul class="social about-footer {{condensed_class}}">
         {%- if site.plainwhite.social_links.github -%}
         <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">

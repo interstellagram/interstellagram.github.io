@@ -1,6 +1,5 @@
 title: interstellagram
 author: Jonna Nolan
-email: interstellagram@ggmail.com
 description: >-
   Hello. I'm Jonna Nolan, a film critic exploring image, memory, and time through science fiction and arthouse cinema.
 
@@ -24,9 +23,7 @@ plainwhite:
     - page
     - post
 
-  social_links:
-    github: interstellagram
-    email: interstellagram@ggmail.com
+  social_links: {}
 
 plugins:
   - jekyll-seo-tag
