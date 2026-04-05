@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A New Beginning as a Film Critic"
-date: 2026-04-05
+date: 2026-04-03
 categories: [blog, film]
 tags: [film, review, christopher-nolan, writing, beginning]
 ---

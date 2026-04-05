@@ -109,11 +109,19 @@ main {
       white-space: pre-wrap;
       line-height: normal;
     }
-    img {
+    .profile-image {
       width: 150px;
       height: 150px;
       border-radius: 50%;
+      overflow: hidden;
+      display: block;
+      flex-shrink: 0;
+    }
+    img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
+      display: block;
     }
     img.dark {
       display: none;
@@ -270,6 +278,45 @@ main {
     font-family: Raleway, sans-serif;
   }
 }
+.post-share {
+  margin-top: 32px;
+  padding-top: 18px;
+  border-top: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.post-share-label {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #777;
+}
+.post-share-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #111;
+  border-radius: 999px;
+  text-decoration: none;
+  line-height: 1;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  color: #111;
+  &:hover {
+    color: #fff;
+    background-color: #111;
+    border-color: #111;
+  }
+  svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+    display: block;
+  }
+}
 .posts-labelgroup {
   margin: 0 0 0.67em 0;
   display: flex;
@@ -311,6 +358,10 @@ footer {
         flex-direction: row;
         margin-bottom: 10px;
         img {
+          width: 100%;
+          height: 100%;
+        }
+        .profile-image {
           width: 40px;
           height: 40px;
         }
